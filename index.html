@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Awsum Snacks</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 header__product">
+                    <!-- <img src="images/product-custom.png" alt="product" id="product"> -->
+                    <div>
+                        <img src="images/product_photo.png" alt="product" id="product">
+                    </div>
+                    
+                    <div>
+                        <img src="images/label1.png" alt="">
+                        <img src="images/label1.png" alt="">
+                        <img src="images/label1.png" alt="">
+                    </div>
+                    <div class="header__product-list">
+                        <ul>
+                            <li>non gmo</li>
+                            <li>soy free</li>
+                            <li>zero cholesterol</li>
+                            <li>zero trans fat</li>
+                        </ul>
+                        <ul>
+                            <li>no high fructose corn syrup</li>
+                            <li>no artifitial colors & flavors</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 header__information .col-sm-push-12">
+                <div>
+                    <p class="header__information-first">See Salt</p>
+                    <img src="images/2-layers.png" alt=""  id="table">
+                </div> 
+                    <div class="table">
+                        <img src="images/hovernutritions.png" alt="">
+                    </div>
+                    <p class="header__information-second">Corn puffs</p>
+                    <p class="header__information-third">Exciting Discoveries</p>
+                    <p class="header__information-fourth">Corn Puffs with Sea Salt is Mother Nature’s way of adding earthly goodness to an already Awesome treats. The sea salt gives you just enough taste without going overboard. Just like riding the waves, this snack whisks you away on an ocean adventure of flavor filled with exciting discoveries!
+                    </p>
+                    <button>Ingredients</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid ingredients">
+            <div class="row">
+                <div class="ingredients__title col-sm-12">
+                    <p>Only simple natural ingredients that you will love with dash of Excitement</p>
+                    <p>Cornmeal, sunflower oil and sea salt </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="ingredients__photo">
+                    <div class="col-lg-4 col-md-4"><img src="images/sunfloweroil.png" alt="">
+                        <p>sunflower oil</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><img src="images/corn.png" alt=""></div>
+                    <div class="col-lg-4 col-md-4"><img src="images/seasalt.png" alt="">
+                        <p>sea salt</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><img src="images/cornmeal.png" alt="">
+                        <p>cornmeal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="ingredients__photo-slider" id="sld" style="display: none">
+                    <div>
+                        <img src="images/sunfloweroil.png" alt="">
+                        <p>sunflower oil</p>
+                    </div>
+                    <div>
+                        <img src="images/corn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/seasalt.png" alt="">
+                        <p>sea salt</p>
+                    </div>
+                    <div>
+                        <img src="images/cornmeal.png" alt="">
+                        <p>cornmeal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid order">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 order__image">
+                    <img src="images/layer-202.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="order__net">
+                        <label>
+                        <!-- <label class="col-sm-4 col-xs-4"> -->
+                            <input type="radio" name="fb" value="small" />
+                              <p>1 oz</p>
+                            <p class="weight">Net wt. 28g</p>
+                        </label>
+                        <label>
+                            <input type="radio" name="fb" value="small" />
+                            <p>3 oz</p>
+                            <p class="weight">Net wt. 85g</p>
+                        </label>
+                        <label>
+                            <input type="radio" name="fb" value="small" />
+                            <p>5 oz</p>
+                            <p class="weight">Net wt. 140g</p>
+                        </label>
+                    </div>
+                    <div class="order__qrt">
+                        <select name="qrt" id="qrt">
+                        <!-- <select name="qrt" id="qrt" class="col-sm-6 col-xs-6"> -->
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select name="pack" id="pack" class="col-sm-6 col-xs-6">
+                            <option value="20" selected>box (20 packs)</option>
+                            <option value="50">box (50 packs)</option>
+                            <option value="100">box (100 packs)</option>
+                        </select>
+                    </div>
+                    <div class="order__price">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 left">
+                            <p>$3.25/box</p>
+                            <p>$ 2.25 / bag — SAVE $1.00!</p><button class="btnord">buy now</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 right">
+                            <p>Register as a wholesaler to get a better price</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <p class="title">Happy Customers’ Stories </p>
+                <div class="social">
+                    <div>
+                    <a href="#"><img src="images/layer-142.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                    <div>
+                    <a href="#"><img src="images/layer-143.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                    <div>
+                    <a href="#"><img src="images/layer-144.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                                        <div>
+                    <a href="#"><img src="images/layer-145.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                                        <div>
+                    <a href="#"><img src="images/layer-145.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                    <div>
+                    <a href="#"><img src="images/layer-145.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                    <div>
+                    <a href="#"><img src="images/layer-145.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div></a>
+                        
+                    </div>
+                    <div>
+                    <a href="#"></a>
+                        <img src="images/layer-142.png" alt="">
+                        <p>This collection of solo flute pieces from Navajo-Ute musician R. Carlos Nakai is an evocative delight. </p>
+                        <div class="name">
+                            <img src="images/layer-146.png" alt="">
+                            <p>akuzmychova</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="main-top__product">
+            <h5>Find out what tasty yet</h5>
+            <div class="main-top-product-slider main-active-slider">
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/vanilla.jpg" alt="vanilla" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--through">$3.25</p>
+                                <p class="product-slider__price--new">$2.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/cheese.jpg" alt="cheese" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--old">$3.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/salt.jpg" alt="photo" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--through">$3.25</p>
+                                <p class="product-slider__price--new">$2.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/salt.jpg" alt="photo" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--through">$3.25</p>
+                                <p class="product-slider__price--new">$2.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/salt.jpg" alt="photo" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--through">$3.25</p>
+                                <p class="product-slider__price--new">$2.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/peanut.jpg" alt="peanut" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--old">$3.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-top-product-slider__item">
+                    <a href="#">
+                        <div class="product-slider">
+                            <img src="images/peanut.jpg" alt="peanut" class="product-slider__img">
+                            <div class="product-slider__description">
+                                <p>perfect mixture of cheese, spices</p>
+                            </div>
+                            <div class="product-slider__price">
+                                <p class="product-slider__price--old">$3.25</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

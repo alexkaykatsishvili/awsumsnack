@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+.header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#179b99+0,179d9a+9,20a5a3+35,21a5a3+42,20a0a0+50,22a7a5+55,1ea3a1+76,179b99+100 */
+  background: #179b99;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #179b99 0%, #179d9a 9%, #20a5a3 35%, #21a5a3 42%, #20a0a0 50%, #22a7a5 55%, #1ea3a1 76%, #179b99 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #179b99 0%, #179d9a 9%, #20a5a3 35%, #21a5a3 42%, #20a0a0 50%, #22a7a5 55%, #1ea3a1 76%, #179b99 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #179b99 0%, #179d9a 9%, #20a5a3 35%, #21a5a3 42%, #20a0a0 50%, #22a7a5 55%, #1ea3a1 76%, #179b99 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#179b99', endColorstr='#179b99', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */ }
+  .header__product #product {
+    padding-top: 25px;
+    max-width: 100%; }
+  .header__product div {
+    text-align: center;
+    padding: 0 5px 14px 5px; }
+  .header__product-list {
+    padding-bottom: 46px; }
+    .header__product-list ul {
+      padding: 0; }
+      .header__product-list ul li {
+        display: inline;
+        font-family: "Lato";
+        color: #000101;
+        font-size: 11px;
+        font-weight: 300;
+        letter-spacing: 0.18px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 18px;
+        list-style: disc; }
+        .header__product-list ul li:nth-child(2n):before {
+          content: "\2022"; }
+  .header__information {
+    padding-top: 115px;
+    position: relative; }
+    .header__information .table {
+      display: none;
+      position: absolute;
+      font-size: 23px;
+      top: 0;
+      width: 300px; }
+    .header__information .tablevis {
+      display: block; }
+    .header__information-first {
+      font-family: "Lato";
+      color: #fff;
+      font-size: 55px;
+      font-weight: 700;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      line-height: 60px;
+      text-align: left; }
+    .header__information p.header__information-first {
+      display: inline; }
+      .header__information p.header__information-first + img {
+        vertical-align: baseline;
+        padding-left: 39px; }
+    .header__information-third {
+      font-family: "Segoe Print";
+      color: #abf2f1;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      line-height: 24px;
+      text-align: left;
+      padding-bottom: 26px; }
+    .header__information-second {
+      font-family: "Lato";
+      color: #fff;
+      font-size: 55px;
+      font-weight: 900;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      line-height: 60px;
+      text-align: left;
+      text-transform: uppercase; }
+    .header__information-fourth {
+      font-family: "Lato";
+      color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      line-height: 30px;
+      text-align: left;
+      max-width: 478px;
+      padding-bottom: 58px; }
+  .header button {
+    border: 2px #fff dashed;
+    border-radius: 30px;
+    opacity: 0.84;
+    width: 191px;
+    height: 60px;
+    background: none;
+    font-family: "Segoe Print";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px; }
+    .header button:hover {
+      background-color: #259999; }
+
+.ingredients__title {
+  padding-top: 94px;
+  padding-bottom: 70px; }
+  .ingredients__title p {
+    text-align: center;
+    font-family: "Segoe Print";
+    color: #060606;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    line-height: 30px; }
+  .ingredients__title p:last-child {
+    font-family: "Segoe Print";
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 18px; }
+.ingredients__photo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+.ingredients__photo p {
+  text-align: center;
+  font-family: "Lato";
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase; }
+.ingredients__photo-slider {
+  display: none; }
+
+.title {
+  padding: 37px 0 23px 32px;
+  font-family: "Lato";
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left; }
+
+.social p {
+  font-family: "Lato";
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 20px;
+  text-align: left;
+  padding: 26px 0 0 31px;
+  max-width: 215px; }
+.social .name p {
+  font-weight: 400;
+  display: inline-block;
+  padding: 0; }
+.social .name img {
+  display: inline-block;
+  padding-left: 31px; }
+
+.order__image img {
+  max-width: 100%;
+  text-align: center; }
+.order__net {
+  padding-top: 87px; }
+  .order__net p {
+    font-family: "Helvetica Neue";
+    color: #000;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    width: 70px;
+    line-height: 16px;
+    margin-right: 43px; }
+  .order__net .weight {
+    font-family: "Arial Narrow";
+    color: #000;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 17px; }
+  .order__net label > input {
+    /* HIDE RADIO */
+    visibility: hidden;
+    /* Makes input not-clickable */
+    position: absolute;
+    /* Remove input from document flow */ }
+  .order__net label > input ~ p {
+    /* P STYLES */
+    cursor: pointer;
+    border: 2px solid transparent; }
+  .order__net label > input:checked ~ p {
+    /* (RADIO CHECKED) P STYLES */
+    color: #7f7f7f; }
+.order__qrt {
+  padding-top: 37px; }
+  .order__qrt select {
+    font-family: "Lato";
+    color: #010101;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 24px;
+    height: 42px;
+    border: 1px solid #dcdbda; }
+.order__price {
+  padding-top: 37px; }
+  .order__price .left p {
+    font-family: "Lato";
+    color: #282828;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    width: 89px;
+    height: 34px;
+    line-height: 30px; }
+  .order__price .left p + p {
+    font-family: "Lato";
+    color: #e2623f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    width: 170px;
+    height: 14px;
+    line-height: 18px; }
+  .order__price .right p {
+    font-family: "Lato";
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    width: 134px;
+    height: 31px;
+    line-height: 18px; }
+.order .btnord {
+  font-family: "Lato";
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+  width: 191px;
+  height: 60px;
+  border: 3px solid #d05331;
+  background-color: #e2623f;
+  border-radius: 30px;
+  margin-top: 20px; }
+  .order .btnord:hover {
+    background-color: #d85d3c; }
+
+footer .main-top__product {
+  padding-top: 78px; }
+  footer .main-top__product h5 {
+    font-family: "Lato";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 20px; }
+  footer .main-top__product .product-slider img {
+    max-width: 100%; }
+  footer .main-top__product .product-slider__description p {
+    font-family: "Lato";
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 18px;
+    max-width: 107px;
+    display: block;
+    margin: 0 auto; }
+  footer .main-top__product .product-slider__price {
+    max-width: 78px;
+    display: block;
+    margin: 0 auto; }
+    footer .main-top__product .product-slider__price--through {
+      font-family: "Lato";
+      color: #c0c0c0;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      display: inline;
+      text-decoration: line-through; }
+    footer .main-top__product .product-slider__price--new {
+      display: inline;
+      font-family: "Lato";
+      color: #e2623f;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center; }
+    footer .main-top__product .product-slider__price--old {
+      font-family: "Lato";
+      color: #282828;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center; }
+
+@media (max-width: 720px) {
+  .header button {
+    border: 2px #000 dashed;
+    border-radius: 30px;
+    opacity: 0.84;
+    width: 191px;
+    height: 60px;
+    background: none;
+    color: black;
+    margin-bottom: 50px; }
+    .header button:hover {
+      background-color: #333;
+      color: white; }
+
+  .header__information {
+    padding-top: 75px;
+    background-color: white; }
+    .header__information p {
+      color: black; }
+
+  .ingredients__title {
+    padding-top: 0px; }
+  .ingredients__photo {
+    display: none; }
+    .ingredients__photo-slider {
+      display: block !important; }
+      .ingredients__photo-slider img {
+        display: block;
+        margin: 0 auto; }
+      .ingredients__photo-slider p {
+        text-align: center;
+        font-family: "Lato";
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.18px;
+        line-height: 30px;
+        text-align: center;
+        line-height: 20px;
+        text-transform: uppercase; } }
+.social img {
+  max-width: 100%; }
+
+@media (min-width: 1900px) {
+  .header .row {
+    max-width: 1718px;
+    margin: 0 auto; }
+
+  .social {
+    max-width: 1718px;
+    margin: 0 auto; }
+
+  .main-top-product-slider {
+    max-width: 1718px;
+    margin: 0 auto; }
+
+  .ingredients__photo {
+    max-width: 788px;
+    margin: 0 auto; }
+
+  .order {
+    max-width: 924px;
+    margin: 0 auto; }
+
+  .title {
+    max-width: 1718px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=main.css.map */
