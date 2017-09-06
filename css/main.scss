@@ -222,6 +222,7 @@ body {
 
 .order {
     &__image {
+        text-align: center;
         img {
             max-width: 100%;
             text-align: center;
@@ -236,7 +237,7 @@ body {
             #000);
             width: 70px;
             line-height: 16px;
-            margin-right: 43px;
+            margin-right: 20%;
         }
         .weight {
             @include font('Arial Narrow',
@@ -432,6 +433,19 @@ footer {
             }
         }
     }
+        .order__net {
+            padding: 0;
+        text-align: center;
+    }
+    .order__qrt {
+        padding: 0;
+        text-align: center;
+    width: 200px;
+    margin: 0 auto
+    }
+    .btnc {
+    text-align: center;
+}
 }
 
 .hovprod {
@@ -443,7 +457,7 @@ footer {
             29px,
             #000);
             line-height: 16px;
-            margin-right: 10px;
+            margin-right: 5%;
         }
         .weight {
             @include font('Arial Narrow',
@@ -524,7 +538,7 @@ footer {
 
 .prod {
     position: relative;
-    height: 530px;
+    height: 580px;
     .front-prod {
         position: absolute;
         top: 0;
@@ -560,6 +574,7 @@ footer {
         max-width: 730px;
         margin: 0 auto;
     }
+
 }
 
 @media (min-width: 1400px) {
