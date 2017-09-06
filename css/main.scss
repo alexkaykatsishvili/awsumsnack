@@ -408,7 +408,7 @@ footer {
             color: black;
         }
         &-first {
-           font-size: 40px;
+            font-size: 40px;
         }
     }
 
@@ -436,19 +436,19 @@ footer {
             }
         }
     }
-        .order__net {
-            padding: 0;
+    .order__net {
+        padding: 0;
         text-align: center;
     }
     .order__qrt {
         padding: 0;
         text-align: center;
-    width: 200px;
-    margin: 0 auto
+        width: 200px;
+        margin: 0 auto
     }
     .btnc {
-    text-align: center;
-}
+        text-align: center;
+    }
 }
 
 .hovprod {
@@ -577,7 +577,6 @@ footer {
         max-width: 730px;
         margin: 0 auto;
     }
-
 }
 
 @media (min-width: 1400px) {
