@@ -60,10 +60,11 @@
     }
   ]
 });
-	$('#table').on("mouseenter", function(){
-		$('.table').addClass('tablevis');
-	});
-	$('#table').on("mouseleave", function(){
-		$('.table').removeClass('tablevis');
-	});
+
+  $('.hov').hover(function() {
+        $('.table').fadeIn('fast');
+    },function() {
+        $('.table').fadeOut('fast');
+    }
+);
 })(jQuery);

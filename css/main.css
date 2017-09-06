@@ -361,18 +361,20 @@ footer .main-top__product {
       text-align: center; }
 
 @media (max-width: 720px) {
-  .header button {
-    border: 2px #000 dashed;
-    border-radius: 30px;
-    opacity: 0.84;
-    width: 191px;
-    height: 60px;
-    background: none;
-    color: black;
-    margin-bottom: 50px; }
-    .header button:hover {
-      background-color: #333;
-      color: white; }
+  .header {
+    text-align: center; }
+    .header button {
+      border: 2px #000 dashed;
+      border-radius: 30px;
+      opacity: 0.84;
+      width: 191px;
+      height: 60px;
+      background: none;
+      color: black;
+      margin-bottom: 50px; }
+      .header button:hover {
+        background-color: #333;
+        color: white; }
 
   .header__information {
     padding-top: 75px;
@@ -400,9 +402,147 @@ footer .main-top__product {
         text-align: center;
         line-height: 20px;
         text-transform: uppercase; } }
+.hovprod {
+  text-align: center; }
+  .hovprod__net p {
+    font-family: "Helvetica Neue";
+    color: #000;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 10px; }
+  .hovprod__net .weight {
+    font-family: "Arial Narrow";
+    color: #000;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 17px; }
+  .hovprod__net label > input {
+    /* HIDE RADIO */
+    visibility: hidden;
+    /* Makes input not-clickable */
+    position: absolute;
+    /* Remove input from document flow */ }
+  .hovprod__net label > input ~ p {
+    /* P STYLES */
+    cursor: pointer;
+    border: 2px solid transparent; }
+  .hovprod__net label > input:checked ~ p {
+    /* (RADIO CHECKED) P STYLES */
+    color: #7f7f7f; }
+  .hovprod__qrt {
+    width: 228px;
+    margin: 0 auto;
+    padding-bottom: 20px; }
+    .hovprod__qrt select {
+      font-family: "Lato";
+      color: #010101;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      line-height: 30px;
+      text-align: center;
+      line-height: 24px;
+      height: 42px;
+      border: 1px solid #dcdbda; }
+  .hovprod__price .left p {
+    font-family: "Lato";
+    color: #282828;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    height: 34px;
+    line-height: 30px; }
+  .hovprod__price .left p + p {
+    font-family: "Lato";
+    color: #e2623f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    height: 14px;
+    line-height: 18px; }
+  .hovprod .btnord {
+    font-family: "Lato";
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 191px;
+    height: 60px;
+    border: 3px solid #d05331;
+    background-color: #e2623f;
+    border-radius: 30px; }
+    .hovprod .btnord:hover {
+      background-color: #d85d3c; }
+
+.prod {
+  position: relative;
+  height: 530px; }
+  .prod .front-prod {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .prod .hovprod {
+    position: absolute;
+    height: 600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: none; }
+  .prod:hover .hovprod {
+    display: block; }
+  .prod:hover .front-prod {
+    display: none; }
+
 .social img {
   max-width: 100%; }
 
+@media (min-width: 720px) {
+  .ingredients__photo {
+    max-width: 730px;
+    margin: 0 auto; } }
+@media (min-width: 1400px) {
+  .header .row {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+  .social {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+  .main-top-product-slider {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+  .ingredients__photo {
+    max-width: 850px;
+    margin: 0 auto; }
+
+  .order {
+    max-width: 804px;
+    margin: 0 auto; }
+
+  .title {
+    max-width: 1200px;
+    margin: 0 auto; } }
 @media (min-width: 1900px) {
   .header .row {
     max-width: 1718px;
